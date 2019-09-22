@@ -1,6 +1,11 @@
 #pragma once
 
+#if defined(STM32F407xx) || defined(STM32F405xx)
+
 #include "stm32f4xx_hal.h"
+
+#else
+#endif
 
 namespace hal {
     class Led {
