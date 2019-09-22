@@ -1,5 +1,6 @@
 #pragma once
 
+#include <string>
 #include "hal_config.hpp"
 
 constexpr char endl[] = "\r\n";
