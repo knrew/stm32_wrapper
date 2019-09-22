@@ -1,11 +1,6 @@
 #pragma once
 
-#if defined(STM32F407xx) || defined(STM32F405xx)
-
-#include "stm32f4xx_hal.h"
-
-#else
-#endif
+#include "hal_config.hpp"
 
 namespace hal {
     class Button {
