@@ -8,7 +8,7 @@ constexpr char endl[] = "\r\n";
 namespace hal {
     class Debug {
     public:
-        Debug() {
+        Debug() noexcept {
             setbuf(stdout, NULL);
         }
 
